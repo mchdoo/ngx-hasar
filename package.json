@@ -1,0 +1,31 @@
+{
+  "name": "ngx-hasar",
+  "version": "1.0.2",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2015/ngx-hasar.mjs",
+  "es2020": "fesm2020/ngx-hasar.mjs",
+  "esm2020": "esm2020/ngx-hasar.mjs",
+  "fesm2020": "fesm2020/ngx-hasar.mjs",
+  "fesm2015": "fesm2015/ngx-hasar.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-hasar.mjs",
+      "es2020": "./fesm2020/ngx-hasar.mjs",
+      "es2015": "./fesm2015/ngx-hasar.mjs",
+      "node": "./fesm2015/ngx-hasar.mjs",
+      "default": "./fesm2020/ngx-hasar.mjs"
+    }
+  }
+}
